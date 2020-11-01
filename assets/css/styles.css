@@ -156,14 +156,21 @@ ul {
   
   }
 
-      .projec1 {
+
+      
+.projec1 {
         flex-basis: auto;
       }
       
-      .project1:after {
+.project1:after {
         content: '';
       }
-  
+
+  .project a {
+
+        text-decoration: none;
+
+  }
 
   .project img {
     /* max-width: 50%; */
