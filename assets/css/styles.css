@@ -10,13 +10,12 @@ body {
 
 .logo {
     max-height: 50px;
-    /* height: auto;
 
-    width: auto; */
 }
 
-
-/* Style for Nav bar*/
+/* ***********************************/
+/* Style for Nav bar                 */
+/* ***********************************/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,9 +50,6 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* p {
-    font-size: 16px;
-} */
 
 
 /* ***********************************/
@@ -64,19 +60,6 @@ header nav ul li a {
     display: flex;
   }
 
-  /* .about h1 {
-    flex-grow: 1;
-  } */
-
-  /* .info {
-    display: flex;
-  } */
-
-/* .info::after {
-    content: " ";
-    display: flex;
-    clear: both;
-  } */
 
 .about {
     background-color: #111111 ;
@@ -104,7 +87,7 @@ header nav ul li a {
     padding-top: 10px;
     margin-top: 0px;
     margin-left:260px;
-    font-family: cursive;
+    font-family: 'cursive', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
 
     
 }
@@ -172,17 +155,17 @@ ul {
 
   }
 
-  .project img {
-    /* max-width: 50%; */
-    /* width: 30%; */
-  }
-
   .project  img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .project header{
     margin-top: auto;
+    text-align: center;
+    /* background-color:#111111;
+    color:#ffffff ;
+    font-family: 'cursive', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; */
+    
   }
 
   .project1 {
