@@ -8,8 +8,9 @@ body {
     background-color:  #808080;
 }
 
-.logo {
-    max-height: 50px;
+header .logo {
+
+    max-height: 65px;
 
 }
 
