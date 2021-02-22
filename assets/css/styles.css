@@ -30,20 +30,20 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     color: #ffffff;
+    font-size: 20px;
 }
 
 
 header nav {
-    padding-top: 15px;
+    margin-top: 10px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    font-size: 20px;
+
 }
 
-header nav ul {
+/* header nav ul {
     list-style-type: none;
-}
+} */
 
 
 
