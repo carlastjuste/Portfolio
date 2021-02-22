@@ -8,26 +8,30 @@ body {
     background-color:  #808080;
 }
 
-header .logo {
-
-    max-height: 65px;
-
+/* ***********************************/
+/* *****Style for Nav bar*************/
+/* ***********************************/
+header { 
+    background-color: #333333;
 }
 
-/* ***********************************/
-/* Style for Nav bar                 */
-/* ***********************************/
-header {
-    padding: 20px;
+#logo {
+    max-height: 140px;
+    max-width: 140px;
+}
+
+#menu li {
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#menu li a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #808080;
+    text-decoration: none;
     color: #ffffff;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
 
 header nav {
     padding-top: 15px;
@@ -41,15 +45,8 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
 
-header nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
+
 
 
 
