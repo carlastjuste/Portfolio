@@ -24,6 +24,7 @@ header {
     float: left;
     margin-left: 25px;
     margin-top: 25px;
+    list-style-type: none;
 }
 
 #menu li a {
@@ -89,81 +90,63 @@ header nav {
 
 }
 
-
 /* ***********************************/
-/* Style for project sectionProjects */
+/* Style for work section */
 /* ********************************* */
-.work h1 {
-    padding: 25px 0px 25px 0px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #111111;
-    background-color:#ffffff;
-    }
-
-ul {
-    list-style-type:none;
+#work{
+    background-color: #E7E7E7;
 }
 
-.grid-container {
+#work-header {
+padding-top: 25px;
+padding-bottom: 25px;
+text-align: center;
+}
+
+#work-content{
+    padding-top: 1%;
+    /* background-color: black; */
+}
+
+#work-list {
     display: flex;
-    flex-wrap: wrap;
-    font-family: arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    
+    flex-direction: row wrap;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
-.portfolio-grid::after {
-    content: " ";
-    display: block;
+.work{
+    flex-grow:1;
+    background-color: white;
+    flex-basis: 30%;
+    margin-left: 2%;
+    margin-right: 2%;    
 }
 
+.work img {
+    width: 100%;
+    overflow: auto;
+}
 
-.portfolio-grid {
-    display: flex; /* so child elements can use flexbox stuff too! */
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  
-  }
-
-
-      
-.projec1 {
-        flex-basis: auto;
-      }
-      
-.project1:after {
-        content: '';
-      }
-
-  .project a {
-
-        text-decoration: none;
-
-  }
-
-  .project  img:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-  .project header{
-    margin-top: auto;
+.work h3 {
     text-align: center;
-    /* background-color:#111111;
-    color:#ffffff ;
-    font-family: 'cursive', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; */
-    
-  }
-
-  .project1 {
-    height: 500px;
-    line-height: 140px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
+#repo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-style: solid;
+}
+
+#preview {
+    float: right;
+    border-style: solid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
 
 
 /* ***********************************/
