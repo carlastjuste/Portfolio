@@ -83,24 +83,33 @@
         </section>
 
         <!-- Section about contact info -->
-        <section class="contact">
-            <h1><a id="contact"></a>Contact</h1>
-            <form>
+        <section id="contact" class="contact">
+        <div class="section-header">
+            <h1>Contact</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mjvpdqdb" method="POST">
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                    <input type="email" id="email" name="_replyto" placeholder="Email">
+                     <textarea id="subject" name="subject" placeholder="Message me your questions or requests" style="height:200px"></textarea>
+                    <div class="button-holder">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>     
+            </div>
+            <div class="contact-links">
                 <ul>
-                    <li> Tel: (XXX)xxx-xxxx </li>
-                    <li>Email: aaaaa@gmail.com</li>
-                    <li>office address: sdfdsf, Charlotte,NC 28217</li>
-                </ul>
-
-
-                  <input id="fullname" type="text" placeholder="Your Name" />
-                  <input id="email" type="text" placeholder="Your email" />
-                  <input id="subject" type="text" placeholder="Message" />
-
-                  <button>Submit</button>
-              </form>
-
-        </section>
+                    <li><i class="fa fa-phone-square fa-3x" aria-hidden="true"></i><a href="Tel:(704)493-8553" target="_blank">(704) 493-8553</a></li>
+                    <li><i class="fa fa-envelope-open-o fa-3x" aria-hidden="true"></i><a href="mailto:carlastjuste@gmail.com" target="_blank">carlastjuste@gmail.com</a></li>
+                    <li><i class="fa fa-github fa-3x" aria-hidden="true"></i><a href="https://github.com/carlastjuste">/carlastjuste</a></li>
+                    <li><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i><a href="https://www.linkedin.com/in/carla-st-juste-6635617a/">/carlastjuste</a></li>
+                </ul>    
+            </div>
+        </div>
+           
+       </section>
     </main>
     <footer>
         <p>

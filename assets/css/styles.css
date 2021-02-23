@@ -4,9 +4,14 @@
     margin: 0;
 }
 
+main{
+    width: 100%;
+}
+
 body {
     background-color:  #808080;
 }
+
 
 /* ***********************************/
 /* *****Style for Nav bar*************/
@@ -153,27 +158,90 @@ text-align: center;
 /* Style for Contact section */
 /* ***********************************/
 
-.contact h1 {
+.section-header {
     padding: 25px 0px 25px 0px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #111111;
-    background-color:#ffffff;
+    background-color:#E7E7E7;
 }
 
-.contact form {
-    padding: 0px 0px 50px 0px;
+
+.contact-content{
+    display: flex;
+    justify-content: space-around;
+    background: #333333;
+}
+
+.contact-form {
+    width: 40%;
+    background: #8D8D8D;
+    border-radius: 5px;
+    padding:10px;
+    margin:15px;
+}
+
+.contact-form input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+.button-holder {
+    background-color: #8D8D8D;
+    color: black;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff;
-    background-color:#111111;
+}
+  
+.contact-form  input[type=submit] {
+    background-color: #00FF00;
+    width: 100px;
+    margin: auto;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+  
+ .contact-links{
+      width: 40%;
+      padding:10px;
+      margin:15px;
+      border-radius: 5px;
+      /* background: #8D8D8D; */
+  }
+
+.contact-links ul{
+    list-style-type: none;
+    margin: 60px;
 }
 
-.contact form ul {
+.contact-links li{
+      margin-bottom: 30px;
 
-    padding-bottom: 20px;
-    padding-top: 20px;
+  }
+
+  .contact-links li a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #00FF00;
+    font-size: large;
+    /* border-style: solid; */
+    font-weight: bolder;
+
 }
+
+i {
+    color: #00FF00;
+}
+
 
 /* ***********************************/
 /* Style for Footer                  */
