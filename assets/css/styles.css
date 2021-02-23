@@ -47,52 +47,46 @@ header nav {
 /* ***********************************/
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-#about-header {
-    background-color: #111111;
-    
+#about {
+    background-color: #111111;   
+    height: 446px; 
+
 }
 
-#about-header h1 {
+#about-content {
+    width: 60%;
+    float: left;
+}
+
+#about-content h1 {
     color: #ffffff;
     font-size: 50px;
-    padding-top: 100px;
-    margin-left: 200px;
+    padding-top: 8%;
+    text-align: center;
+
 }
 
-#about-header h2 {
+#about-content h2 {
     color: #808080;
     font-size: 20px; 
     padding-top: 10px;
-    margin-left:220px;
+    text-align: center;
     font-family: 'cursive', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
 }
 
-
-.info {
-    display: flex;
-  }
-
-
-#name {
-    background-color: #111111 ;
-    margin-top: 0;
-
-}
-
-#name img{
-    float: right;
-}
-
-
-#name h2 {
-
-    
-}
-
-#name p{
+#about-content p {
     color: #ffffff;
-    margin: 50px 300px 0px 200px;
-    font-family: Georgia, serif;
+    font-family: 'Comic Sans MS','Bradley Hand ITC', 'cursive', Georgia, serif;
+    font-size: x-large;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#about-picture {
+    /* padding-left: 100px; */
+    float: right;
+
 }
 
 
