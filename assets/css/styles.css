@@ -249,10 +249,12 @@ i {
 
 
 footer {
-    padding: 30px;
-    clear: both;
+    padding: 10px;
+    background-color: #333333;
+    color: #8D8D8D;
+    /* clear: both; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 20px;
+    text-align: left;
+    font-size: 12px;
 }
 
