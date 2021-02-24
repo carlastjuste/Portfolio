@@ -1,6 +1,6 @@
 # Porfolio
 This Application present the portfolio of some of the projects that I have done so far as a full stack developer.
-![weather dashboard demo](/img/CarlaSTJUSTE_Portfolio.gif)
+![Portfolio Website Demo](assets/imgs/CarlaSTJUSTE_Portfolio.gif)
 
 ## Deployed link
 [portfolio](https://carlastjuste.github.io/Portfolio/)
