@@ -50,12 +50,12 @@ header nav {
 /* ***********************************/
 /* Style for About section */
 /* ***********************************/
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 #about {
     background-color: #111111;   
     height: 446px; 
-
+    display: flex;
+    justify-content: space-between;
 }
 
 #about-content {
