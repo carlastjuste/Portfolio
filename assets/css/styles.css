@@ -39,7 +39,6 @@ header {
     font-size: 20px;
 }
 
-
 header nav {
     margin-top: 10px;
     margin-right: 20px;
@@ -98,66 +97,6 @@ header nav {
 /* ***********************************/
 /* Style for work section */
 /* ********************************* */
-#work{
-    background-color: #E7E7E7;
-}
-
-#work-header {
-padding-top: 25px;
-padding-bottom: 25px;
-text-align: center;
-}
-
-#work-content{
-    padding-top: 1%;
-    /* background-color: black; */
-}
-
-#work-list {
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: space-around;
-    list-style-type: none;
-}
-
-.work{
-    flex-grow:1;
-    background-color: white;
-    flex-basis: 30%;
-    margin-left: 2%;
-    margin-right: 2%;    
-}
-
-.work img {
-    width: 100%;
-    overflow: auto;
-}
-
-.work h3 {
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-#repo{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-style: solid;
-}
-
-#preview {
-    float: right;
-    border-style: solid;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    
-}
-
-
-/* ***********************************/
-/* Style for Contact section */
-/* ***********************************/
-
 .section-header {
     padding: 25px 0px 25px 0px;
     text-align: center;
@@ -166,6 +105,50 @@ text-align: center;
     background-color:#E7E7E7;
 }
 
+.container {
+    background-color: #E7E7E7;
+}
+
+#work-content {
+    background-color: #333333;
+}
+
+.card-body h5{
+    text-align: center;
+}
+
+.btn-group{
+    background-color: #333333;
+    border-radius: 20px;
+}
+
+.btn-group button{
+    border-color:transparent;
+}
+
+.btn-group #btn-demo a {
+    text-decoration: none;
+    color: #00FF00;
+    padding-right: 10px;
+    /* border-style: solid; */
+    border-right-color: #00FF00;
+    border-right-style: solid;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ***********************************/
+/* Style for Contact section */
+/* ***********************************/
 
 .contact-content{
     display: flex;
@@ -221,6 +204,7 @@ text-align: center;
 .contact-links ul{
     list-style-type: none;
     margin: 60px;
+    white-space: nowrap;
 }
 
 .contact-links li{
@@ -229,7 +213,7 @@ text-align: center;
   }
 
   .contact-links li a{
-    margin-left: 30px;
+    margin-left: 20px;
     text-decoration: none;
     color: #00FF00;
     font-size: large;
