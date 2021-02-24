@@ -1,5 +1,5 @@
 # Porfolio
-This Application present the portfolio of some of the projects that I have done so far as a full stack developer.
+This website present a portfolio of some of the projects that I have done so far as a full stack developer. 
 
 
 ![Portfolio Website Demo](assets/imgs/CarlaSTJUSTE_Portfolio.gif)
@@ -14,7 +14,7 @@ This software can be used on :
 * Firefox
  It hasn't been tested on other browsers but it might works properly.  
 
-## Technology used
+## Technology  used
 * HTML
 * CSS
 * Bootstrap
