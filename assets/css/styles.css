@@ -107,6 +107,7 @@ header nav {
 
 .container {
     background-color: #E7E7E7;
+    padding: 12px;
 }
 
 #work-content {
@@ -130,12 +131,20 @@ header nav {
     text-decoration: none;
     color: #00FF00;
     padding-right: 10px;
-    /* border-style: solid; */
     border-right-color: #00FF00;
     border-right-style: solid;
-
-
 }
+
+
+.col {
+ 
+        transition: all 200ms ease-out;
+        /* margin: 2px; */
+    }
+.col:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
 
 
 
